@@ -1,4 +1,4 @@
-<h1><img src="favicon.svg" alt="Options Greeks Playground favicon" width="40" height="40" style="vertical-align: middle; margin-right: 12px;" />Options Greeks Playground</h1>
+<h1><img src="pages/icons/favicon.svg" alt="Options Greeks Playground favicon" width="40" height="40" style="vertical-align: middle; margin-right: 12px;" />Options Greeks Playground</h1>
 Showcase for options Greeks (Delta, Gamma, Vega, Theta) with concise docs and examples.
 
 Live site: https://greeksplayground.com/
@@ -13,8 +13,8 @@ Live site: https://greeksplayground.com/
 Study strategies safely and explore payoffs in a sandbox. Use Search to find a strategy fast, or click Select (top right) and open the dropdown to browse all available strategies. More strategies will be added over time.
 
 <p align="left">
-  <a href="screenshot/home.png">
-    <img src="screenshot/home.png" alt="Greeks Playground home" width="720" />
+  <a href="pages/screenshot/home.png">
+    <img src="pages/screenshot/home.png" alt="Greeks Playground home" width="720" />
   </a>
 </p>
 
@@ -23,8 +23,8 @@ Study strategies safely and explore payoffs in a sandbox. Use Search to find a s
 Interactive visuals for Delta, Gamma, Vega, and Theta so you can see how each Greek behaves and changes with inputs.
 
 <p align="left">
-  <a href="screenshot/greeks_learning.png">
-    <img src="screenshot/greeks_learning.png" alt="Greeks learning view" width="720" />
+  <a href="pages/screenshot/greeks_learning.png">
+    <img src="pages/screenshot/greeks_learning.png" alt="Greeks learning view" width="720" />
   </a>
 </p>
 
@@ -41,37 +41,37 @@ Interactive visuals for Delta, Gamma, Vega, and Theta so you can see how each Gr
   <tbody>
     <tr>
       <td>UI</td>
-      <td><img src="icons/react-logo.png" alt="React" width="24" style="vertical-align: middle; margin-right: 8px;" /> React</td>
+      <td><img src="pages/icons/react-logo.svg" alt="React" width="20" height="20" align="absmiddle" /> React</td>
       <td>Interactive single page interface</td>
     </tr>
     <tr>
       <td>Build</td>
-      <td><img src="icons/vite-logo.png" alt="Vite" width="24" style="vertical-align: middle; margin-right: 8px;" /> Vite</td>
+      <td><img src="pages/icons/vite-logo.svg" alt="Vite" width="20" height="20" align="absmiddle" /> Vite</td>
       <td>Fast dev server and production builds</td>
     </tr>
     <tr>
       <td>Lint</td>
-      <td><img src="icons/eslint.png" alt="ESLint" width="24" style="vertical-align: middle; margin-right: 8px;" /> ESLint</td>
+      <td><img src="pages/icons/eslint.svg" alt="ESLint" width="20" height="20" align="absmiddle" /> ESLint</td>
       <td>Code quality checks</td>
     </tr>
     <tr>
       <td>Unit Tests</td>
-      <td><img src="icons/vitest.png" alt="Vitest" width="24" style="vertical-align: middle; margin-right: 8px;" /> Vitest</td>
+      <td><img src="pages/icons/vitest.svg" alt="Vitest" width="20" height="20" align="absmiddle" /> Vitest</td>
       <td>Fast unit testing</td>
     </tr>
     <tr>
       <td>E2E Tests</td>
-      <td><img src="icons/playwright.png" alt="Playwright" width="24" style="vertical-align: middle; margin-right: 8px;" /> Playwright</td>
+      <td><img src="pages/icons/playwright.svg" alt="Playwright" width="20" height="20" align="absmiddle" /> Playwright</td>
       <td>Browser smoke coverage</td>
     </tr>
     <tr>
       <td>CI/CD</td>
-      <td><img src="icons/github-actions.png" alt="GitHub Actions" width="24" style="vertical-align: middle; margin-right: 8px;" /> GitHub Actions</td>
+      <td><img src="pages/icons/github-actions.svg" alt="GitHub Actions" width="20" height="20" align="absmiddle" /> GitHub Actions</td>
       <td>Automated pipeline</td>
     </tr>
     <tr>
       <td>Hosting</td>
-      <td><img src="icons/cloudflare-pages.png" alt="Cloudflare Pages" width="24" style="vertical-align: middle; margin-right: 8px;" /> Cloudflare Pages</td>
+      <td><img src="pages/icons/cloudflare-pages.svg" alt="Cloudflare Pages" width="20" height="20" align="absmiddle" /> Cloudflare Pages</td>
       <td>Static site hosting</td>
     </tr>
   </tbody>
@@ -88,24 +88,24 @@ Interactive visuals for Delta, Gamma, Vega, and Theta so you can see how each Gr
 GitHub Actions runs linting, unit tests, coverage, build, and smoke tests before deploy.
 
 <p align="left">
-  <a href="screenshot/github_actions.png">
-    <img src="screenshot/github_actions.png" alt="GitHub Actions workflow runs" width="720" />
+  <a href="pages/screenshot/github_actions.png">
+    <img src="pages/screenshot/github_actions.png" alt="GitHub Actions workflow runs" width="720" />
   </a>
 </p>
 <p align="left">
-  <a href="screenshot/build.png">
-    <img src="screenshot/build.png" alt="Build workflow summary" width="720" />
+  <a href="pages/screenshot/build.png">
+    <img src="pages/screenshot/build.png" alt="Build workflow summary" width="720" />
   </a>
 </p>
 
 <p align="left">
-  <a href="screenshot/tests.png">
-    <img src="screenshot/tests.png" alt="Tests status" width="720" />
+  <a href="pages/screenshot/tests.png">
+    <img src="pages/screenshot/tests.png" alt="Tests status" width="720" />
   </a>
 </p>
 <p align="left">
-  <a href="screenshot/tests_coverage.png">
-    <img src="screenshot/tests_coverage.png" alt="Tests coverage status" width="720" />
+  <a href="pages/screenshot/tests_coverage.png">
+    <img src="pages/screenshot/tests_coverage.png" alt="Tests coverage status" width="720" />
   </a>
 </p>
 
