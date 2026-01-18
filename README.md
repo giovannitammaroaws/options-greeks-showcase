@@ -113,21 +113,23 @@ Test coverage summary:
   </a>
 </p>
 
-CI pipeline tasks:
-- Linting
-- Unit tests
-- Coverage tests
-- Build
-- Smoke tests (basic load + title check)
-
 ## Architecture
 
-Architecture diagram below: everything is rendered via React in the browser.
+Architecture diagram below: everything is rendered via React in the browser. Below are the key pieces and how the quality gates work in practice.
 
 - Client rendered React app
 - Vite for dev speed and production builds
 - GitHub Actions for CI/CD pipeline
 - No server side rendering in the current stack
+
+Quality gates details (sequence):
+1) Pre-commit checks (Husky): local Git hooks run before commit to block obvious issues. Husky can trigger linting and/or tests so broken code does not even reach the repo.
+2) Push / PR to GitHub: every change goes through CI.
+3) Lint (ESLint): runs in CI on each push/PR to enforce code style and catch common bugs early. The pipeline fails if lint errors exist.
+4) Unit tests: fast test suite to validate core logic.
+5) Coverage: ensures test coverage stays at an acceptable level.
+6) Build: production build must succeed to proceed.
+7) Smoke tests (Playwright): after build, a quick Playwright script launches a browser, loads the app, and checks a basic signal like page load and title to confirm the build is deployable.
 
 <p align="left">
   <a href="pages/screenshot/architecture.png">
