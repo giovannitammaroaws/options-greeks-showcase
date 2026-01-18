@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Vitest">
-  <rect width="64" height="64" rx="12" fill="#1f1f1f"/>
-  <path d="M12 18h40l-6 28-14 8-14-8-6-28z" fill="#f8d24b"/>
-  <circle cx="24" cy="30" r="3" fill="#1f1f1f"/>
-  <circle cx="40" cy="30" r="3" fill="#1f1f1f"/>
-</svg>

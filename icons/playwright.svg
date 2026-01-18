@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Playwright">
-  <rect width="64" height="64" rx="12" fill="#232323"/>
-  <circle cx="24" cy="28" r="10" fill="#2ecc71"/>
-  <circle cx="40" cy="36" r="10" fill="#27ae60"/>
-  <circle cx="24" cy="28" r="4" fill="#0b3d1f"/>
-  <circle cx="40" cy="36" r="4" fill="#0b3d1f"/>
-</svg>
