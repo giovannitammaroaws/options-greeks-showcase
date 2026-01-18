@@ -126,6 +126,7 @@ Architecture diagram below: everything is rendered via React in the browser.
 
 - Client rendered React app
 - Vite for dev speed and production builds
+- GitHub Actions for CI/CD pipeline
 - No server side rendering in the current stack
 
 <p align="left">
@@ -133,11 +134,6 @@ Architecture diagram below: everything is rendered via React in the browser.
     <img src="pages/screenshot/architecture.png" alt="Architecture flow" width="720" />
   </a>
 </p>
-
-## Hosting
-
-- Static site deployed to Cloudflare Pages
-- Preview deployments for each PR
 
 ## Roadmap
 
