@@ -143,4 +143,4 @@ Architecture diagram below: everything is rendered via React in the browser.
 
 ---
 
-Built by Giovanni Tammaro | [GitHub](https://github.com/giovannitammaroaws/options-greeks-showcase)
+Built by Giovanni Tammaro | [LinkedIn](https://www.linkedin.com/in/pubtammarogiovanni/)
