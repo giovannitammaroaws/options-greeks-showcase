@@ -1,4 +1,4 @@
-<h1><img src="pages/icons/favicon.svg" alt="Options Greeks Playground favicon" width="40" height="40" style="vertical-align: middle; margin-right: 12px;" />Options Greeks Playground</h1>
+<h1><img src="pages/icons/favicon.svg" alt="Options Greeks Playground favicon" width="40" height="40" align="absmiddle" style="margin-right: 12px;" />Options Greeks Playground</h1>
 Showcase for options Greeks (Delta, Gamma, Vega, Theta) with concise docs and examples.
 
 Live site: https://greeksplayground.com/
@@ -87,22 +87,26 @@ Interactive visuals for Delta, Gamma, Vega, and Theta so you can see how each Gr
 
 GitHub Actions runs linting, unit tests, coverage, build, and smoke tests before deploy.
 
+Workflow runs (recent commits):
 <p align="left">
   <a href="pages/screenshot/github_actions.png">
     <img src="pages/screenshot/github_actions.png" alt="GitHub Actions workflow runs" width="720" />
   </a>
 </p>
+Build and deploy pipeline steps:
 <p align="left">
   <a href="pages/screenshot/build.png">
     <img src="pages/screenshot/build.png" alt="Build workflow summary" width="720" />
   </a>
 </p>
 
+Unit tests running now:
 <p align="left">
   <a href="pages/screenshot/tests.png">
     <img src="pages/screenshot/tests.png" alt="Tests status" width="720" />
   </a>
 </p>
+Test coverage summary:
 <p align="left">
   <a href="pages/screenshot/tests_coverage.png">
     <img src="pages/screenshot/tests_coverage.png" alt="Tests coverage status" width="720" />
