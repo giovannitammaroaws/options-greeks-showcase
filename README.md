@@ -140,6 +140,11 @@ Quality gates details (sequence):
 ## Roadmap
 
 - Phase 2 (AWS) — see `phase2_aws`: next release will run on AWS with live market data. Users will be able to apply their saved profile to real stock options, persist profiles in S3, and store metadata in DynamoDB.
+<p align="left">
+  <a href="pages/screenshot/phase2_aws.png">
+    <img src="pages/screenshot/phase2_aws.png" alt="Phase 2 AWS roadmap" width="720" />
+  </a>
+</p>
 
 ---
 
