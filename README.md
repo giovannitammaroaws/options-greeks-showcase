@@ -5,9 +5,8 @@ Live site: https://greeksplayground.com/
 
 ## Quick View
 
-- Purpose: learn options Greeks through interactive, real time visuals
+- Purpose: interactive playground to build intuition on payoff and Greeks
 - Stack: React + Vite, ESLint, Vitest, Playwright, GitHub Actions, Cloudflare Pages
-- Options Greeks Playground is an interactive web app that helps traders and learners build intuition about options Greeks and payoff dynamics. The experience is intentionally fast, visual, and hands on: change inputs and see the consequences immediately.
 
 ### Greeks Playground
 
@@ -123,9 +122,17 @@ CI pipeline tasks:
 
 ## Architecture
 
+Architecture diagram below: everything is rendered via React in the browser.
+
 - Client rendered React app
 - Vite for dev speed and production builds
 - No server side rendering in the current stack
+
+<p align="left">
+  <a href="pages/screenshot/architecture.png">
+    <img src="pages/screenshot/architecture.png" alt="Architecture flow" width="720" />
+  </a>
+</p>
 
 ## Hosting
 
@@ -137,3 +144,7 @@ CI pipeline tasks:
 - Add more strategy presets
 - Expand learning content with examples
 - Performance budgets and monitoring
+
+---
+
+Built by Giovanni Tammaro | [GitHub](https://github.com/giovannitammaroaws/options-greeks-showcase)
