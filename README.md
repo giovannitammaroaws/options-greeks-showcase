@@ -139,9 +139,7 @@ Quality gates details (sequence):
 
 ## Roadmap
 
-- Add more strategy presets
-- Expand learning content with examples
-- Performance budgets and monitoring
+- Phase 2 (AWS) — see `phase2_aws`: next release will run on AWS with live market data. Users will be able to apply their saved profile to real stock options, persist profiles in S3, and store metadata in DynamoDB.
 
 ---
 
