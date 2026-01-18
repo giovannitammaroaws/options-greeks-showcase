@@ -13,8 +13,8 @@ Live site: https://greeksplayground.com/
 Study strategies safely and explore payoffs in a sandbox. Use Search to find a strategy fast, or click Select (top right) and open the dropdown to browse all available strategies. More strategies will be added over time.
 
 <p align="left">
-  <a href="pages/screenshot/home.png">
-    <img src="pages/screenshot/home.png" alt="Greeks Playground home" width="720" />
+  <a href="pages/screenshot/home2.png">
+    <img src="pages/screenshot/home2.png" alt="Greeks Playground home" width="720" />
   </a>
 </p>
 
@@ -23,8 +23,8 @@ Study strategies safely and explore payoffs in a sandbox. Use Search to find a s
 Interactive visuals for Delta, Gamma, Vega, and Theta so you can see how each Greek behaves and changes with inputs.
 
 <p align="left">
-  <a href="pages/screenshot/greeks_learning.png">
-    <img src="pages/screenshot/greeks_learning.png" alt="Greeks learning view" width="720" />
+  <a href="pages/screenshot/greeks_learning2.png">
+    <img src="pages/screenshot/greeks_learning2.png" alt="Greeks learning view" width="720" />
   </a>
 </p>
 
